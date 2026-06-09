@@ -69,13 +69,13 @@ INSERT INTO customers (first_name, last_name, email) VALUES
                                                          ('Ana', 'Stancu', 'ana.stancu@yahoo.com');
 
 INSERT INTO sales (customer_id, employee_id) VALUES
-                                                 (1, 1), -- Comanda 1 (Mihai servit de Ion)
-                                                 (2, 2); -- Comanda 2 (Ana servită de Maria)
+                                                 (1, 1),
+                                                 (2, 2); 
 
 INSERT INTO sale_items (sale_id, product_id, quantity, unit_price) VALUES
-                                                                       (1, 1, 1, 3299.99), -- Mihai a cumpărat 1 Laptop
-                                                                       (1, 2, 2, 149.99),  -- Mihai a cumpărat 2 Mouse-uri
-                                                                       (2, 3, 1, 449.99);  -- Ana a cumpărat 1 Geacă
+                                                                    (1, 1, 1, 3299.99), 
+                                                                    (1, 2, 2, 149.99),  
+                                                                    (2, 3, 1, 449.99);  
 
     SELECT p.name AS Product, 
     c.name AS Category, 
