@@ -106,7 +106,8 @@ UPDATE employees
 SET salary = 4800.00
 WHERE employee_id = 1;
 
-INSERT INTO customers (first_name, last_name, email) VALUES ('Client', 'DeSters', 'delete.me@test.ro');
+INSERT INTO customers (first_name, last_name, email) 
+    VALUES ('Client', 'DeSters', 'delete.me@test.ro');
 
 DELETE FROM customers
 WHERE email = 'delete.me@test.ro';
